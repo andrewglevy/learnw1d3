@@ -1,0 +1,93 @@
+body {
+  background-color: slategray;
+  /*background-image: url("Images/food.jpg");*/
+}
+
+.header {
+  background-color: #007849;
+  display: flex;
+  border-style: groove;
+  border-width: thick;
+  border-color: gray;
+  flex-direction: column;
+  align-items: center;
+  /*align-content: space-around;
+  justify-content: flex-end;*/
+  line-height: 50%
+}
+h1 {
+  font-family: helvetica;
+}
+h3 {
+  font-family: geneva;
+}
+table, th, td {
+  border-style: ridge;
+  border-width: thick;
+  border-color: gray;
+}
+
+table {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  font-size: 16px;
+  font-weight: bolder;
+  background-color: #4ABDAC;
+  font-family: verdana;
+}
+
+td {
+  font-size: 12px;
+  background-color: khaki;
+  font-family: verdana;
+  font-weight: bolder;
+}
+.foodImages {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+#restaurant {
+  float: left;
+}
+
+#food {
+  float: right;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  border-style: groove;
+  border-width: medium;
+  border-color: gray;
+  font-weight: bolder;
+  background-color: #4ABDAC;
+  clear: both;
+}
+
+@keyframes move {
+  0% {transform: rotate(0deg)}
+  33% {transform: rotate(30deg)}
+  66% {transform: rotate(-30deg)}
+  100% {transform: rotate(0deg)}
+}
+.learnimg:hover {
+animation: move 3s infinite;
+}
+#learn {
+  width: 100px;
+  border-style: solid;
+  border-color: gray;
+  margin: 10px 0px;
+}
+
+.learnimg {
+  padding: 10px 0px;
+}
